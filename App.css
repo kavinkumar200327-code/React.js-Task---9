@@ -1,0 +1,315 @@
+/*
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header
+{
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b71;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme
+{
+  padding: 20px;
+}
+
+.skills
+{
+  padding: 20px;
+}
+
+ol
+{
+  padding-left: 20px;
+}
+
+.footer
+{
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b71;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+} */
+
+/* Props Concept */
+
+/* *
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+div > h1
+{
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b71;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+} */
+
+/* .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f8;
+}
+
+.card {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.upload-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.upload-btn:hover {
+  background-color: #0056b3;
+}
+
+.file-input {
+  display: none;
+}
+
+.preview-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.like-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.like-btn {
+  font-size: 24px;
+  border: none;
+  background: none;
+  color: gray;
+  cursor: pointer;
+}
+
+.liked {
+  color: red;
+}
+
+.comment-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.comment-btn {
+  padding: 8px 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comment-btn:hover {
+  background-color: darkgreen;
+}
+
+.comments-box {
+  text-align: left;
+}
+
+.comments-box ul {
+  padding-left: 20px;
+}
+
+.comments-box li {
+  margin-bottom: 8px;
+} */
+
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h2
+{
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  width: 400px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 14px;
+}
+
+.theme-btn {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.theme-btn:hover
+{
+  background-color: yellow;
+  color: black;
+}
+
+.light {
+  background-color: #f4f6f8;
+  color: black;
+}
+
+.light .form-card {
+  background-color: white;
+}
+
+.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark .form-card {
+  background-color: #333;
+}
+
+.dark input {
+  background-color: #444;
+  color: white;
+  border: 1px solid #777;
+} */
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.traffic-box {
+  width: 100px;
+  background: #171717;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 15px auto;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: #2dd72d;
+}
+
+.active1 {
+  opacity: 2;
+  box-shadow: 0 0 20px red;
+}
+
+.active2 {
+  opacity: 2;
+  box-shadow: 0 0 20px yellow;
+}
+
+.active3 {
+  opacity: 2;
+  box-shadow: 0 0 20px #2dd72d;
+}
+
+.buttons
+{
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid blue;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.buttons:hover
+{
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid yellow;
+}
